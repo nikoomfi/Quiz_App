@@ -135,7 +135,7 @@ class _Quiz_screenState extends State<Quiz_screen>
                       controller.reset();
                       onNextPressed(false);
                       controller.forward();
-                    }, 140, 80),
+                    }, 140, 80, 22),
                     SizedBox(
                       height: size.height * 0.05,
                     ),

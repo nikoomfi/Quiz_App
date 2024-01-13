@@ -22,14 +22,14 @@ class MyAlertDialog extends StatelessWidget {
           children: [
             Expanded(
               child: Custom_Button('بله', Colors.red, currentQuestionNumber,
-                  onYesPressed, 50, 40),
+                  onYesPressed, 50, 60, 15),
             ),
             SizedBox(
               width: 15,
             ),
             Expanded(
               child: Custom_Button('خروج', Colors.red, currentQuestionNumber,
-                  onExitPressed, 50, 40),
+                  onExitPressed, 50, 60, 15),
             ),
           ],
         ),
