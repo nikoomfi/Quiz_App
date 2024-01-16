@@ -75,7 +75,7 @@ class ResultScreen extends StatelessWidget {
                   ),
                   Custom_Button('شروع مجدد', kgreen, currentQuestionNumber, () {
                     onDoAgain(context);
-                  }, 140, 80),
+                  }, 140, 80, 22),
                 ],
               ),
             )

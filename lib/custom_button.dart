@@ -10,9 +10,10 @@ class Custom_Button extends StatelessWidget {
   final VoidCallback onTapped;
   final double width;
   final double height;
+  final double buttonTextFontSize;
 
   Custom_Button(this.text, this.color, this.currentQuestionNumber,
-      this.onTapped, this.width, this.height);
+      this.onTapped, this.width, this.height, this.buttonTextFontSize,);
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +38,7 @@ class Custom_Button extends StatelessWidget {
               displayText,
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 22,
+                fontSize: buttonTextFontSize,
                 fontWeight: FontWeight.bold,
               ),
             ),
